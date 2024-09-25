@@ -1,0 +1,5 @@
+numpy==1.21.6
+opacus==0.15.0
+torch==1.13.1
+torchvision==0.14.1
+tqdm==4.26.0
