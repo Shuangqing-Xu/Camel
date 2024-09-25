@@ -6,7 +6,7 @@ This implementation accompanies our paper by Shuangqing Xu, Yifeng Zheng and Zho
 
 Download the repository and install all required packages as listed in requirements.txt.
 
-#### Differentially Privacy Model Training on MNIST
+#### Differentially Private Model Training on MNIST
 
 To evaluate the model utility on MNIST, run the following command
 
@@ -14,7 +14,7 @@ To evaluate the model utility on MNIST, run the following command
 python train_mnist.py --epsilon 1.9 --epochs 1000 --lr 0.1 --clip-val 0.5 --batch-size 12800 --device cuda
 ```
 
-#### Differentially Privacy Model Training on FMNIST
+#### Differentially Private Model Training on FMNIST
 
 To evaluate the model utility on FMNIST, run the following command
 
